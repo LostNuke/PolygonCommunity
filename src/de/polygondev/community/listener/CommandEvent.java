@@ -39,8 +39,9 @@ public class CommandEvent implements CommandExecutor {
 			if(sender instanceof Player) {
 				Player p = (Player) sender;
 				if(p.hasPermission(PermissionsManager.ADMIN)) {
-					StageGUI stage = new StageGUI();
-					stage.createElements(p);
+					
+					//Inventory einsetzen xD
+					
 				}
 			}
 		}
