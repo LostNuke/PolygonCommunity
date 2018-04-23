@@ -11,7 +11,6 @@ import de.polygondev.community.listener.CommandEvent;
 import de.polygondev.community.listener.InteractEvent;
 import de.polygondev.community.listener.JoinEvent;
 import de.polygondev.community.particles.ParticleSystem;
-import de.polygondev.community.stages.ParticleGUI;
 
 public class Main extends JavaPlugin {
 	
