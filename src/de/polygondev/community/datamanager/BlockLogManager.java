@@ -11,11 +11,11 @@ import org.bukkit.block.Block;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import de.polygondev.community.ExternalVars;
+import de.polygondev.community.Community;
 
 public class BlockLogManager {
 
-	public static File f = new File(ExternalVars.plugin.getDataFolder(), "LoggedBlocks.yml");
+	public static File f = new File(Community.plugin.getDataFolder(), "LoggedBlocks.yml");
 	public static FileConfiguration cfg = YamlConfiguration.loadConfiguration(f);
 
 	public static void save() {

@@ -9,12 +9,12 @@ import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import de.polygondev.community.ExternalVars;
+import de.polygondev.community.Community;
 import de.polygondev.community.particles.Particle;
 
 public class ParticleSaveManager {
 	
-	public static File f = new File(ExternalVars.plugin.getDataFolder(), "ParticleList.yml");
+	public static File f = new File(Community.plugin.getDataFolder(), "ParticleList.yml");
 	public static FileConfiguration cfg = YamlConfiguration.loadConfiguration(f);
 	
 	public static void SaveParticleArrayList(ArrayList<Particle> al) {

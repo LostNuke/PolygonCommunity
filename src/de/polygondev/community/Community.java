@@ -12,13 +12,14 @@ import de.polygondev.community.listener.InteractEvent;
 import de.polygondev.community.listener.JoinEvent;
 import de.polygondev.community.particles.ParticleSystem;
 
-public class Main extends JavaPlugin {
+public class Community extends JavaPlugin {
 	
-	public static Main main;
+	public static Community main;
+	public static JavaPlugin plugin = null;
 	
 	public void onEnable() {
 		main = this;
-		ExternalVars.plugin = this;
+		plugin = this;
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "[Community] Das Plugin wurde Aktiviert!");
 		
 		//Inventory API init

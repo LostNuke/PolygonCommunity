@@ -3,7 +3,7 @@ package de.polygondev.community.particles;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 
-import de.polygondev.community.ExternalVars;
+import de.polygondev.community.Community;
 
 public class Particle {
 	
@@ -75,7 +75,7 @@ public class Particle {
 	// Thread ----------------------------------------------------------------
 	public void runParticleThread() {
 		this.isRunning = true;
-		pt.runTaskAsynchronously(ExternalVars.plugin);
+		pt.runTaskAsynchronously(Community.plugin);
 	}
 	
 	public void stopParticleThread() {
