@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import de.polygondev.InventoryGui.API;
 import de.polygondev.community.datamanager.ParticleSaveManager;
 import de.polygondev.community.listener.BlockEvent;
 import de.polygondev.community.listener.CommandEvent;
@@ -20,7 +21,10 @@ public class Main extends JavaPlugin {
 		main = this;
 		ExternalVars.plugin = this;
 		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "[Community] Das Plugin wurde Aktiviert!");
-
+		
+		//Inventory API init
+		API.activateAPI(this, this.getConfig().getCurrentPath(), null);
+		
 		getCommand("spawneffect").setExecutor(new CommandEvent());
 		getCommand("killeffects").setExecutor(new CommandEvent());
 		getCommand("stage").setExecutor(new CommandEvent());
