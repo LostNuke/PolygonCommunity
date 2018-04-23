@@ -16,6 +16,7 @@ public class CommandEvent implements CommandExecutor {
 	
 	int i = 0;
 	
+	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command com, String arg2, String[] arg3) {
 		if (com.getName().equalsIgnoreCase("spawneffect")) {
