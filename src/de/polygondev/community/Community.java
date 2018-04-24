@@ -23,7 +23,7 @@ public class Community extends JavaPlugin {
 	public void onEnable() {
 		main = this;
 		plugin = this;
-		
+
 		//Inventory API init
 		EventExtender ex = new EventExtender() {
 
@@ -46,7 +46,8 @@ public class Community extends JavaPlugin {
 			}
 			
 		};
-		API.activateAPI(this, this.getConfig().getCurrentPath(), ex);
+
+        API.activateAPI(this, this.getConfig().getCurrentPath(), ex);
 		
 		getCommand("spawneffect").setExecutor(new CommandEvent());
 		getCommand("killeffects").setExecutor(new CommandEvent());

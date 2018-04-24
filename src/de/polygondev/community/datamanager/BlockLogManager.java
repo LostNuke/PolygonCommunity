@@ -70,7 +70,7 @@ public class BlockLogManager {
 			}
 		save();
 		
-		//Bukkit.getConsoleSender().sendMessage("§4[Community]OOO " + cfg.getDoubleList("block").get(0) + " _ " + cfg.getDoubleList("count").get(0));
+		//Bukkit.getConsoleSender().sendMessage("?4[Community]OOO " + cfg.getDoubleList("block").get(0) + " _ " + cfg.getDoubleList("count").get(0));
 	}
 
 	public static Object[] SortBlocks() {
@@ -85,7 +85,7 @@ public class BlockLogManager {
 		//Geht so oft mal durch wie es objekte gibt
 		for (int y = 0; y <= index; y++) {
 			
-			//Die caches für die Sortierung
+			//Die caches f?r die Sortierung
 			Double cache4 = 0.0;
 			int x = 0;
 			
@@ -111,11 +111,11 @@ public class BlockLogManager {
 				}
 			}
 			
-			//Erstes objekt fertig und nächstes anfangen
+			//Erstes objekt fertig und n?chstes anfangen
 			//Ergebnis in die neuen ArrayLists einspeichern
 			
-			//Überprüfen ob noch weitere Daten kommen ansonsten überspringen sonst gibts ne Exception
-			//Wäre auch mit try-catch gegangen aber was solls ^^
+			//?berpr?fen ob noch weitere Daten kommen ansonsten ?berspringen sonst gibts ne Exception
+			//W?re auch mit try-catch gegangen aber was solls ^^
 			
 			try {
 				cs1.add(cache1.get(x));

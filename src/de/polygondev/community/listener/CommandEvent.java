@@ -22,6 +22,8 @@ public class CommandEvent implements CommandExecutor {
 		if (com.getName().equalsIgnoreCase("spawneffect")) {
 			Player p = (Player) sender;
 			
+			
+			
 			Particle particle = new Particle();
 			particle.setLocation(new Location(p.getWorld(), -4.5, 78, 316.5));
 			particle.setEffect(Effect.LAVA_POP);
@@ -42,7 +44,7 @@ public class CommandEvent implements CommandExecutor {
 				if(p.hasPermission(PermissionsManager.ADMIN)) {
 					
 					//Inventory einsetzen xD
-					
+					System.out.println();
 				}
 			}
 		}
