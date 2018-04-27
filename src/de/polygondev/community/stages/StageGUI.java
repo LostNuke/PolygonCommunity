@@ -12,7 +12,7 @@ import de.polygondev.community.API.ItemAPI;
 
 public class StageGUI extends BaseGui{
 	
-	private static String StageName = "§4StageGUI";
+	private static String StageName = "?4StageGUI";
 	
 	private static ItemStack GreenParticle;
 	
@@ -27,7 +27,7 @@ public class StageGUI extends BaseGui{
 //			setBlockLog(ga);
 //		} catch (Exception e) {}
 		
-		ItemStack BlackPane = ItemAPI.CreateBaseItem(Material.STAINED_GLASS_PANE, "§6" ,(short) 15, null);
+		ItemStack BlackPane = ItemAPI.CreateBaseItem(Material.STAINED_GLASS_PANE, "?6" ,(short) 15, null);
 		ga.setItemArea(9, 24, BlackPane);
 		ga.setItemArea(27, 35, BlackPane);
 		ga.setItem(37, BlackPane);
@@ -97,14 +97,14 @@ public class StageGUI extends BaseGui{
 			
 			Player p = (Player) e.getWhoClicked();
 			
-			//Testen ob wirklich der Spieler gedrückt hat
+			//Testen ob wirklich der Spieler gedr?ckt hat
 			int i = 0;
 			for (Player p1 : ExternalVars.List_GuiPlayers) {
 				if (p1.getName().equals(p.getName())) {
 						
 					GUIApi gui = ExternalVars.List_Guis.get(i);
 					
-					//Die verschiedenen Items rausholen und überprüfen
+					//Die verschiedenen Items rausholen und ?berpr?fen
 					//Hier gibt es von 0 - 7 Items
 					ItemStack[] cache = null;
 					try {

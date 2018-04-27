@@ -24,14 +24,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="InventoryGui.jar">
-        <CLASSES>
-          <root url="jar://C:/JarLibShared/InventoryGui.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="InventoryGui" level="project" />
   </component>
 </module>

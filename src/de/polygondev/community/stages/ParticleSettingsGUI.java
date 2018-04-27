@@ -32,7 +32,7 @@ public class ParticleSettingsGUI {
 				
 				BackToMenu = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short) 13);
 				ItemMeta GreenParticleMeta = BackToMenu.getItemMeta();
-				GreenParticleMeta.setDisplayName("§aBack to main-menu!");
+				GreenParticleMeta.setDisplayName("?aBack to main-menu!");
 				BackToMenu.setItemMeta(GreenParticleMeta);
 				
 				BlazePowder = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short)15);

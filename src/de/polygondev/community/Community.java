@@ -30,7 +30,7 @@ public class Community extends JavaPlugin {
 			@Override
 			public void onInventoryClick(InventoryClickEvent arg0, InventoryGui arg1) {
 				// TODO Auto-generated method stub
-				
+				Bukkit.getServer().getConsoleSender().sendMessage("Hey! Du bist noch nicht so lange hier was?");
 			}
 
 			@Override
