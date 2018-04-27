@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06535e94-aa37-45df-bb4a-edb1482627fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/InventoryGui.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PolygonCommunity.iml" afterPath="$PROJECT_DIR$/PolygonCommunity.iml" />
       <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/Community.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/Community.java" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/stages/ParticleSettingsGUI.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/stages/ParticleSettingsGUI.java" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/stages/StageGUI.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/stages/StageGUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -297,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524534959854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="IDE Update xD">
+      <created>1524871332297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524871332297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
