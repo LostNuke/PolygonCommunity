@@ -4,9 +4,6 @@
     <root id="archive" name="PolygonCommunity.jar">
       <element id="module-output" name="PolygonCommunity" />
       <element id="library" level="project" name="InventoryGui" />
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      </element>
     </root>
   </artifact>
 </component>
