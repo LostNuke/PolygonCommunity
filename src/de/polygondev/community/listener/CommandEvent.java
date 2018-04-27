@@ -1,5 +1,8 @@
 package de.polygondev.community.listener;
 
+import de.polygondev.InventoryGui.API;
+import de.polygondev.community.stages.StageInventory;
+import javafx.stage.Stage;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
@@ -10,7 +13,6 @@ import org.bukkit.entity.Player;
 import de.polygondev.community.particles.Particle;
 import de.polygondev.community.particles.ParticleSystem;
 import de.polygondev.community.permissions.PermissionsManager;
-import de.polygondev.community.stages.StageGUI;
 
 public class CommandEvent implements CommandExecutor {
 	
@@ -42,7 +44,10 @@ public class CommandEvent implements CommandExecutor {
 			if(sender instanceof Player) {
 				Player p = (Player) sender;
 				if(p.hasPermission(PermissionsManager.ADMIN)) {
-					
+
+					new StageInventory(p);
+					API.GUIMANAGER.getInventoryByPlayerAndName(p, "STAGE");
+
 					//Inventory einsetzen xD
 					System.out.println();
 				}

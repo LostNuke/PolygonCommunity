@@ -10,23 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06535e94-aa37-45df-bb4a-edb1482627fc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/de/polygondev/community/stages/StageInventory.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/datamanager/BlockLogManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/datamanager/MySQLManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/datamanager/ParticleSaveManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/listener/BlockEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/listener/CommandEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/particles/Particle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/particles/ParticleSystem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/particles/ParticleThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/permissions/PermissionsManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/stages/ParticleGUI.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/stages/ParticleSettingsGUI.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/de/polygondev/community/stages/StageGUI.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/stages/ParticleGUI.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/stages/ParticleSettingsGUI.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/stages/StageGUI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Community.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Community.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/Community.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -52,7 +38,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CommandEvent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StageInventory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/stages/StageInventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,6 +86,8 @@
         <option value="$PROJECT_DIR$/src/de/polygondev/community/stages/StageGUI.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_2.snippet" />
         <option value="$PROJECT_DIR$/src/de/polygondev/community/Community.java" />
+        <option value="$PROJECT_DIR$/src/de/polygondev/community/stages/StageInventory.java" />
+        <option value="$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java" />
       </list>
     </option>
   </component>
@@ -93,6 +112,9 @@
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -159,6 +181,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="permissions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolygonCommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolygonCommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="stages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PolygonCommunity" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524871514667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="General Update">
+      <created>1524871576412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524871576412</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -376,22 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/Community.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/Community.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/datamanager/BlockLogManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
@@ -681,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/listener/BlockEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -745,6 +757,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/stages/StageGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JarLibShared/InventoryGui.jar!/de/polygondev/InventoryGui/invGui/Item.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/stages/StageInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/Community.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -753,11 +791,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/stages/StageGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="572">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
