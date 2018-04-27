@@ -1,0 +1,12 @@
+main: de.polygondev.community.Community
+name: Community
+version: 1.0
+author: PolygonDEV 
+
+commands:
+  spawneffect:
+    description: Spawn Effect
+  stage:
+    description: oeffne die buehnen GUI
+  killeffects:
+    description: kills all effects
