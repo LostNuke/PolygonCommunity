@@ -9,12 +9,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06535e94-aa37-45df-bb4a-edb1482627fc" name="Default" comment="General Update">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PolygonCommunity_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/PolygonCommunity_jar.xml" />
+    <list default="true" id="06535e94-aa37-45df-bb4a-edb1482627fc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/Community.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/Community.java" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/listener/CommandEvent.java" />
-      <change beforePath="$PROJECT_DIR$/src/de/polygondev/community/stages/StageInventory.java" afterPath="$PROJECT_DIR$/src/de/polygondev/community/stages/StageInventory.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -426,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524874068394</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="General Update">
+      <created>1524881197790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1524881197790</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
