@@ -19,8 +19,8 @@ public class Community extends JavaPlugin {
 	
 	public static Community main;
 	public static JavaPlugin plugin = null;
-	
-	public void onEnable() {
+
+	public void onLoad() {
 		main = this;
 		plugin = this;
 
@@ -36,22 +36,25 @@ public class Community extends JavaPlugin {
 			@Override
 			public void onInventoryClose(InventoryCloseEvent arg0, InventoryGui arg1) {
 				// TODO Auto-generated method stub
-				
+
 			}
 
 			@Override
 			public void onPlayerQuit(PlayerQuitEvent arg0, InventoryGui arg1) {
 				// TODO Auto-generated method stub
-				
+
 			}
-			
+
 		};
 
-        API.activateAPI(this, this.getConfig().getCurrentPath(), ex);
-		
+		API.activateAPI(this, this.getConfig().getCurrentPath(), ex);
+
 		getCommand("spawneffect").setExecutor(new CommandEvent());
 		getCommand("killeffects").setExecutor(new CommandEvent());
 		getCommand("stage").setExecutor(new CommandEvent());
+	}
+
+	public void onEnable() {
 		
 		ParticleSystem.List_particle = ParticleSaveManager.ReadParticleArrayList();
 		ParticleSystem.StartAll();
@@ -61,10 +64,11 @@ public class Community extends JavaPlugin {
 	}
 
 	public void onDisable() {
-		ParticleSystem.RemoveAll();
-	}
 
-	public void onLoad() {
+		ParticleSystem.RemoveAll();
+		API.EVENTEXTENDER = null;
+		API.GUIMANAGER = null;
+
 	}
 
 }

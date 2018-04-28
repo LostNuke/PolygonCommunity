@@ -2,7 +2,6 @@ package de.polygondev.community.listener;
 
 import de.polygondev.InventoryGui.API;
 import de.polygondev.community.stages.StageInventory;
-import javafx.stage.Stage;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
