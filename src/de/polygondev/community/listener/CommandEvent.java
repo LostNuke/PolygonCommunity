@@ -46,7 +46,8 @@ public class CommandEvent implements CommandExecutor {
 				if(p.hasPermission(PermissionsManager.ADMIN)) {
 
 					new StageInventory(p);
-					API.GUIMANAGER.getInventoryByPlayerAndName(p, "STAGE");
+					API.GUIMANAGER.openInventory(p, "STAGE");
+
 
 					//Inventory einsetzen xD
 					System.out.println();

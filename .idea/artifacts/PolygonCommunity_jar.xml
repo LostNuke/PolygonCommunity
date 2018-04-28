@@ -3,7 +3,8 @@
     <output-path>F:/AppData/Desktop</output-path>
     <root id="archive" name="PolygonCommunity.jar">
       <element id="module-output" name="PolygonCommunity" />
-      <element id="library" level="project" name="InventoryGui" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="extracted-dir" path="C:/JarLibShared/InventoryGui.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
