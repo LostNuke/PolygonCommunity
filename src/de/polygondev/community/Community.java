@@ -1,10 +1,11 @@
 package de.polygondev.community;
 
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
+import org.bukkit.*;
+import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import de.polygondev.InventoryGui.API;
@@ -23,14 +24,25 @@ public class Community extends JavaPlugin {
 	public void onLoad() {
 		main = this;
 		plugin = this;
+	}
+
+	public void onEnable() {
 
 		//Inventory API init
 		EventExtender ex = new EventExtender() {
 
 			@Override
-			public void onInventoryClick(InventoryClickEvent arg0, InventoryGui arg1) {
-				// TODO Auto-generated method stub
-				Bukkit.getServer().getConsoleSender().sendMessage("Hey! Du bist noch nicht so lange hier was?");
+			public void onInventoryClick(InventoryClickEvent e, InventoryGui inv) {
+				Player p = ((Player) e.getWhoClicked());
+
+				ItemStack[] is = new ItemStack[inv.getItems().size()];
+				inv.getItems().toArray(is);
+
+				try {
+					if (is[e.getRawSlot()].getType() != Material.AIR) {
+						p.playSound(p.getLocation(), Sound.BLOCK_DISPENSER_FAIL, 100, (int) Math.random() * 100);
+					}
+				} catch (Exception ex) { }
 			}
 
 			@Override
@@ -52,10 +64,7 @@ public class Community extends JavaPlugin {
 		getCommand("spawneffect").setExecutor(new CommandEvent());
 		getCommand("killeffects").setExecutor(new CommandEvent());
 		getCommand("stage").setExecutor(new CommandEvent());
-	}
 
-	public void onEnable() {
-		
 		ParticleSystem.List_particle = ParticleSaveManager.ReadParticleArrayList();
 		ParticleSystem.StartAll();
 		
